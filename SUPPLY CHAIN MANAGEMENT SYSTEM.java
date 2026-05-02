@@ -23,7 +23,7 @@ total_price DECIMAL(10, 2),
 FOREIGN KEY (product_id) REFERENCES
 products(product_id), FOREIGN KEY (supplier_id)
 REFERENCES suppliers(supplier_id)
-);
+);//heko
 import java.sql.Connection;
 import
 java.sql.DriverManager;
