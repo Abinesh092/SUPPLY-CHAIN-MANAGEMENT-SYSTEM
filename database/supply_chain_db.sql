@@ -6,8 +6,7 @@ CREATE TABLE suppliers (
     supplier_name VARCHAR(255) NOT NULL,
     contact_info VARCHAR(255)
 );
-//h
-    
+
 CREATE TABLE products (
     product_id INT AUTO_INCREMENT PRIMARY KEY,
     product_name VARCHAR(255) NOT NULL,
