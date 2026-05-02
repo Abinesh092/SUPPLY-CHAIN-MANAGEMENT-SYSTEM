@@ -14,7 +14,6 @@ CREATE TABLE products (
     price DECIMAL(10, 2),
     FOREIGN KEY (supplier_id) REFERENCES suppliers(supplier_id)
 );
-//a
 
 CREATE TABLE orders (
     order_id INT AUTO_INCREMENT PRIMARY KEY,
