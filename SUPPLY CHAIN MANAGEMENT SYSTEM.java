@@ -218,5 +218,5 @@ JOptionPane.showMessageDialog(this, "Please select a product to delete.");
 private void loadProducts() {
 // Code to load and display products in the JTable from database
 }//how
-  
+  ??this
 }
