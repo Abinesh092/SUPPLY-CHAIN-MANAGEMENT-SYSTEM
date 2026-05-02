@@ -15,7 +15,8 @@ public class DatabaseConnection {
         }
         return connection;
     }
-
+//hellow
+    
     public static void close() throws SQLException {
         if (connection != null && !connection.isClosed()) {
             connection.close();
