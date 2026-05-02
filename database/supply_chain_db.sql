@@ -11,7 +11,7 @@ CREATE TABLE products (
     product_id INT AUTO_INCREMENT PRIMARY KEY,
     product_name VARCHAR(255) NOT NULL,
     supplier_id INT,
-    price DECIMAL(10, 2),// thi
+    price DECIMAL(10, 2),// th
     FOREIGN KEY (supplier_id) REFERENCES suppliers(supplier_id)
 );
 
